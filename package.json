@@ -70,6 +70,7 @@
     "mass-payout:publish": "npm run publish --workspace=packages/mass-payout/* --if-present"
   },
   "devDependencies": {
+    "@hashgraph/asset-tokenization-sdk": "^1.0.0",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
     "@eslint/js": "^9.24.0",
