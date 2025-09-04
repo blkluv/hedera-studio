@@ -26,7 +26,7 @@
     "format:staged": "prettier --check",
     "pre-commit": "lint-staged",
     "commitlint": "commitlint --edit",
-    "prepare": "husky",
+    "prepare": "is-ci || husky",
     "ats:setup": "npm run ats:clean && npm ci && npm run ats:build",
     "ats:setup:clean": "npm run ats:clean && npm install && npm run ats:build",
     "ats:build": "npm run ats:contracts:build && npm run ats:sdk:build && npm run ats:web:build",
